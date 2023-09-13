@@ -1,0 +1,126 @@
+./Job.out output for 9: * (Si)8 (Fd-3m) ~ Untitled (VASP)
+Status: finished
+[Wed Sep 13 14:52:40 IST 2023] [MD] [warn] 'Starting MedeA Core 3.7.2'
+MedeA version 3.7.2
+
+#-------------------------------------------------------------------------------
+#                This calculation has 1 stage
+#-------------------------------------------------------------------------------
+
+Stage 1: VASP 6
+	  
+
+#-------------------------------------------------------------------------------
+#                Running the calculation
+#-------------------------------------------------------------------------------
+
+
+Stage 1: VASP 6
+
+
+VASP 6 CALCULATION PROTOCOL:
+============================
+1. Geometry optimization (atom positions, unit cell shape, unit cell volume)
+     Saved properties in this step: charge density, wave  functions
+2. Calculate superposed atomic charge densities for difference charge density
+
+
+VASP parameters
+===============
+This is a calculation based on density functional theory and the GGA-AM05 exchange-correlation functional for describing the interactions.
+
+Since no magnetic moments are in the model, this is a non-magnetic calculation using 'normal' precision
+and a default planewave cutoff energy of 245.345 eV.
+
+The electronic iterations convergence is 1.00E-006 eV using the Normal (blocked Davidson) algorithm
+and reciprocal space projection operators.
+
+Explicit k-mesh of 6x6x6 used
+This corresponds to actual k-spacings of 0.336 x 0.336 x 0.336 per Angstrom.
+The k-mesh is forced to be centered on the gamma point.
+
+Using first order Methfessel-Paxton smearing with a width of 0.2 eV.
+
+Other non-default parameters:
+	(Pseudo, difference,
+spin) charge density is TRUE
+	Wave functions is TRUE
+	Maximum iterations is 600
+==========================================
+
+Using version 4.0 GGA-AM05 / PAW potentials:
+	Si             	  PAW_PBE Si 05Jan2001                   
+
+There are 16 symmetry-unique k-points
+The plane wave cutoff is 245.34 eV
+
+   VASP energy:             -11.152767 eV for Si2 primitive cell
+
+   Initial VASP energy:     -11.147845 eV for Si2 primitive cell
+   Relaxation energy:        -0.004922 eV gained after 3 optimization steps.
+
+Electronic contributions:
+                          Empirical Formula Conventional Cell
+                                    Si           (Si)8
+                          ----------------- -----------------
+              VASP Energy          -5.576384      -44.611069 eV
+                        =        -538.039       -4304.313 kJ/mol
+
+Cell parameters:
+ Parameter   Original     change      Final       %
+---------- ------------ ---------- ------------ -----
+         a     5.400000   0.036550     5.436550   0.7
+         b     5.400000   0.036550     5.436550   0.7
+         c     5.400000   0.036550     5.436550   0.7
+     alpha    90.000000   0.000000    90.000000   0.0
+      beta    90.000000   0.000000    90.000000   0.0
+     gamma    90.000000   0.000000    90.000000   0.0
+
+    Volume   157.464000   3.219128   160.683128   2.0
+
+        Density:     2.322 Mg/m^3
+
+   The pressure given below is exerted by the system according to its volume.
+   Positive pressure would cause expansion during full geometry optimization.
+       Pressure:   -85.110 MPa
+               =  -851.098 bar
+
+                      XX        YY        ZZ        YZ        XZ        XY
+         Stress:    85.110    85.110    85.110    -0.000     0.000     0.000 MPa
+               =   851.098   851.098   851.098    -0.000     0.000     0.000 bar
+   The stress tensor above is imposed on the system, i.e. negative values of diagonal components 
+   would cause expansion of the corresponding lattice parameter upon full geometry optimization.
+   The pressure and stress include only electronic terms, i.e. the vibrational,
+   temperature and other terms are not included here.
+
+Fractional Coordinates:
+	Atom          Initial Coordinates             Final Coordinates
+	-----      -------- -------- --------      -------- -------- --------
+	Si           0.6250   0.6250   0.6250        0.3750   0.3750   0.3750
+
+Analytic Derivatives:
+	Atom         Derivatives fractional      Derivatives Cartesian (eV/Ang)
+	-----      -------- -------- --------    -------- -------- --------
+	Si           0.0000   0.0000   0.0000	   0.0000   0.0000   0.0000
+
+Atomic partial charges (electron charges):
+	Atom           s        p        d     total 
+	-----      -------- -------- -------- --------
+	Si            0.719    0.933    0.060    1.712
+
+Analysis of the electronic structure:
+	The system is a semiconductor with an indirect gap of 0.643 eV.
+	   The valence band (#4) maximum is located near (0.00 0.00 0.00), at -0.176 eV with respect to the Fermi level.
+	The conduction band (#5) minimum is located near (0.50 0.50 0.00), at  0.467 eV with respect to the Fermi level.
+	The center of the gap is located at 0.145224 eV with respect to the Fermi level.
+	The Fermi energy is used as the zero of the energy scale.
+
+SUPERPOSITION OF ATOMIC CHARGE DENSITIES
+=======================================
+
+
+Job completed on Wed 13 September 2023 at 14:52:54 IST after 6 s (0:00:06)
+
+
+Entire job completed on Wed 13 September 2023 at 14:52:54 IST after 6 s (0:00:06)
+and running 2 tasks.
